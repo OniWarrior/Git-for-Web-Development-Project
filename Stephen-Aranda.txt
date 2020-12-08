@@ -1,0 +1,105 @@
+https://codepen.io/OuterHeaven/pen/xxEVxJg
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? To make it clear what a particular piece of content is for on the page.
+    2. What is HTML used for? It's used to build the the actual content of the page. I
+    3. What is an attribute and where do we put it? It's a property
+    associated with a specific element that is placed  within the opening tag
+    of that element.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is used as a title for the page and is used only once.
+    5. Name two tags that have required attributes
+    The image tag and the anchor tag.
+    6. What do we put in the head of our HTML document? 
+    metadata for the page.
+    7. What is an id? 
+    It represents a specific id for an html element.
+    8. What elements can I add an id to? 
+    An id can be added to any html element.
+    9. How many times can I use the same id on a page? once.
+    10. What is a class? it's a css selector that allows a style to
+    be applied to a single element or a group of elements.
+    11. What elements can I add a class to? All elements.    
+    12. How many times can I use the same class on a page? 
+    As many times as you need.
+    13. How do I get my link to open in a new tab?
+    Add a target = "blank" attribute to the anchor tag.
+    14. What is the alt attribute in the image tag used for? 
+    It provides alternative information of an image if the user can not view it.
+    15. How do I reference an id? Type a # character followed by the id.
+    16. What is the difference between a section and a div
+    a section is an element that is used for a specific section within a page and a div
+    doesn't really have a specific meaning, it's just used to group a particular set of elements together for organization.
+    17. What is CSS used for? To apply different stylings to a page.
+    18. How to we select an element? Example - every h2 on the page
+    use a css selector to apply styles to different elements.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    a class is a selector that can be used to access multiple elements of a page to apply styling to multiple elements.
+    For example if you wanted to apply a styling to various h tags on a page you can use css selectors to access the different h tags on that
+    page to applying a styling. An id is applied only once on a page and is used to access a specific element.
+    20. How do we select classes in CSS? use a . followed by the name of the class.
+    21. How do we select a p element with a single class of “human””? the same way you
+    access any class. Use a . followed by the name of the class.
+    22. What is a parent child selector? When would this be useful? 
+    The parent child selector is the > symbol and is used to style a child of a parent.
+    23. How do you select all links within a div with the class of sidebar? you would use a selector div.sidebar.
+    24. What is a pseudo selector? pseudo selectors are css selectors with a colon preceding them. For example a:hover.
+    25. What do we use the change the spacing between lines? use the line-height property.
+    26. What do we use to change the spacing between letters? use the letter-spacing property.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? use the text-transform property of css.
+    28. How do I add a 1px border around my div that is dotted and black? use the border property and assign 1px.
+    29. How do I select everything on the page?  use * to access everything on the page.
+    30. How do I write a comment in CSS? You write a comment using C language style. That is a /* to begin the comment
+    and a */ to end the comment.
+    31. How do I find out what file I am in, when I am using the command line? enter pwd into the command line.
+    32. Using the command line - how do I see a list of files/folders in my current folder? enter ls into the command line.
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    you have to use the rm command. you have to be careful because you could accidentally delete entire directories rather than a specific file.
+    34. Why should I use version control? You should use it because in the event that you want to undo changes made in a recent commit you can reinstate a previous 
+    commit to undo changes. 
+    35. How often should I commit to github? whenever you're adding something of significance to 
+    your code. For example a new feature, method, etc.
+    36. What is the command we would use to push our repo up to github? git push -u origin firstname-lastname
+    37. Walk me through Lambda's git flow. 
+
+    1. First you open git bash.
+    2. Then you navigate to your project folder that you place all git repos.
+    3. On a browser, navigate to github.
+    4. sign in and go to the repository page that you wish to download.
+    5. Once there, fork the repo.
+    6. Then click the code tab and copy the url onto the clipboard.
+    7. In git bash, type in the git clone command followed by pasting in the url that you
+    copied from github and hit enter.
+    8.Once the clone is successful, create a branch by entering 
+    git checkout -b command followed by your first name - last name in quotation marks 
+    then hit enter.
+    9. Once the branch has been created, type in code . into git bash to launch vscode.
+    10. complete all your tasks in your code base.
+    11. After completing all your tasks, save all changes.
+    12. In git bash, enter the command git add .
+    13. Then enter git commit -m then a message of what was done in quotations then hit enter.
+    14. Push your changes to github by entering the command git push -u origin followed by the branch name.
+    15. Go back to github to your forked project repo and make a pull request.
+    16. Click on the branch master button and select your name- branch and
+    click on the new pull request button.
+    17. You'll be redirected to the pull request page.
+    18. On this page click the dropdown button that says base repository and change it to the 
+    forked repo.
+    19. click on the create pull request button.
+    20. do not click on the merge button.
+    21. submit the url to canvas and your done.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    block elements take up the full width available and inline elements
+    take up only the required width to display the contents of the element.
+    2. What happens when an element is positioned absolutely? 
+    The element is positioned relative to its first positioned ancestor element
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? make it an inline element by using the inline property.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    button is inline-block. textarea and input are inline. div, address, article are block.
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
